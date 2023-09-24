@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 def reduce_memory_usage(df, verbose=True):
     numerics = ["int8", "int16", "int32", "int64", "float16", "float32", "float64"]
